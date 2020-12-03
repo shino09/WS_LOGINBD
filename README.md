@@ -1,8 +1,9 @@
-Web services asmx c# ,  encargado de enviar notificaciones al email cuando se sube una carga de facturas correctamente o si la carga con errores.
+Web services asmx c# , encargado pregunatr en la base de datos si las credecniales de logueo estan correctas.
 
-Es consumido por el aplicativo web cliente cuando se sube una carga.
-Es consumido en el aplicativo de validacion de facturas xml.
-
+Recive el nombre de usuario y la password encriptada.
+Desencripta la password con la key recivida.
+Pregunta en la base de datos si el usuario y password son correctos.
+Envia una respuesta correcta si los datos son correctos o una respuesta erronea si estos son erroenos.
 
 Autoria: Ivan Sobarzo
 
